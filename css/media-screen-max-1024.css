@@ -2,4 +2,16 @@
     header {
         background-color: blue;
     }
+    .contenedor-adornos {
+        right: inherit;
+    }
+    .contenedor-buscador {
+        bottom: 40%;
+    }
+    .seccion-audio article {
+        width: 800px;
+    }
+    .seccion-audio article .audio {
+        width: 290px;
+    }
 }

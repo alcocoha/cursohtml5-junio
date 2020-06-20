@@ -1,5 +1,67 @@
 @media screen and ( max-width: 480px ){
     header {
         background-color: chocolate;
+        flex-direction: column;
+        height: 176px;
+        padding-bottom: 17px;
+    }
+    .menu-cabecera{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    header .menu-cabecera a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    video{
+        width: 300px;
+    }
+    .seccion-videos article {
+        width: inherit;
+        height: inherit;
+    }
+    .contenedor-buscador {
+        width: 100%;
+    }
+    .contenedor-adornos {
+        display: none;
+    }
+    .fondo{
+        width: 100%;
+    }
+    .persona{
+        width: 100%;
+        margin: auto;
+        left: 0;
+    }
+    .contenedor-buscador {
+        bottom: inherit;
+        top: 7%;
+        width: 82%;
+        margin-left: 25px;
+    }
+    .seccion-buscador .contenedor{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .contenedor-persona{
+        width: 100%;
+    }
+
+    .contenedor-buscador h1 {
+        font-size: 50px;
+    }
+    .seccion-audio {
+        height: 900px;
+    }
+    .seccion-audio article {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .seccion-audio article .audio {
+        height: 321px;
     }
 }
