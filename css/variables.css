@@ -7,4 +7,10 @@
     --links-menu: white;
     --btn-colo-login: #1683F8;
     --alto-contenedor: 800px;
+    --color-primario-buscador: white;
+    --font-principal: 'Raleway', sans-serif;
+    --color-contendor-video: white;
+    --webkit-shadow: 0px 2px 23px 0px rgba(71,89,102,1);
+    --moz-shadow: 0px 2px 23px 0px rgba(71,89,102,1);
+    --box-shadow: 0px 2px 23px 0px rgba(71,89,102,1);
 }

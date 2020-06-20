@@ -1,0 +1,31 @@
+.seccion-audio{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.seccion-audio article{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seccion-audio article .audio{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+    position: relative;
+    width: 330px;
+    height: 400px;
+}
+
+.audio-icon{
+    position: absolute;
+    left: -16px;
+    top: -24px;
+    width: 93px;
+}

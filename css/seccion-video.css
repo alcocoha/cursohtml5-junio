@@ -1,0 +1,17 @@
+.seccion-videos{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.seccion-videos article{
+    background-color: var(--color-contendor-video);
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: var(--webkit-shadow);
+    -moz-box-shadow: var(--moz-shadow);
+    box-shadow: var(--box-shadow);
+}

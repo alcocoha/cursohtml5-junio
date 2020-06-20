@@ -6,11 +6,13 @@
     <title>Curso de HTML 5</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/media-screen-max-1024.css">
+    <link rel="stylesheet" href="/css/media-screen-max-768.css">
+    <link rel="stylesheet" href="/css/media-screen-max-480.css">
 </head>
 <body>
 
     <!-- Raleway -->
-<nav>foo</nav>
     <header>
         <h1 class="logotipo">Logotipo</h1>
         <nav class="menu-cabecera">
@@ -43,15 +45,45 @@
                     <h1>en un solo sitio</h1>
                     <div class="input-buscador">
                         <input type="text" />
-                        <img src="/assets/images/buscar.png" alt="icono de buscar" />
-                        <button>Ir"</button>
+                        <img src="/assets/images/buscar.png" alt="icono de buscar" class="input-icon" />
+                        <button>Ir !</button>
                     </div>
                 </div>
             </article>
         </section>
-        <section class="seccion-videos"> videos </section>
-        <section class="seccion-audio"> audios </section>
+        <section class="seccion-videos">
+            <article>
+                <video
+                    controls
+                    autoplay
+                    muted
+                    width="600"
+                    >
+                    <source src="/assets/video/watchtower-of-turkey.mp4" type="video/mp4"/>
+                </video>
+            </article>
+        </section>
+        <section class="seccion-audio">
+            <article>
+                <div class="audio">
+                    <img src="/assets/images/musica_icono.png" alt="icono de música" class="audio-icon"/>
+                    <img src="/assets/images/audio_1.png" alt="audio 1"/>
+                    <audio controls>
+                        <source src="/assets/audio/phosphorescent-song-for-zula.mp3" type="audio/mp3"/>
+                    </audio>
+                </div>
+                <div class="audio">
+                    <img src="/assets/images/musica_icono.png" alt="icono de música" class="audio-icon"/>
+                    <img src="/assets/images/audio_2.png" alt="audio 2"/>
+                    <audio controls>
+                        <source src="/assets/audio/earth-angel-cover-nicholas-wells.mp3" type="audio/mp3"/>
+                    </audio>
+                </div>
+            </article>
+        </section>
     </main>
-    <footer>Aquí va el footer</footer>
+    <footer>
+        &copy; Copyright curso HTML5
+    </footer>
 </body>
 </html>

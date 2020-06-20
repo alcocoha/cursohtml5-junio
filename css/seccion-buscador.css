@@ -4,7 +4,7 @@
 }
 
 .contenedor{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     margin-left: 10%;
     margin-right: 10%;
     position: relative;
@@ -14,7 +14,7 @@
 .contenedor-persona{
     position: absolute;
     right: 0;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: var(--alto-contenedor);
     width: 500px;
 }
@@ -38,7 +38,7 @@
 }
 
 .contenedor-adornos{
-    background-color: coral;
+    /* background-color: coral; */
     width: 170px;
     height: var(--alto-contenedor);
 
@@ -114,6 +114,76 @@
     animation-name: deslizaIzq;
     animation-duration:  1.2s;
 }
+
+.contenedor-buscador {
+    position: absolute;
+    bottom: 20%;
+    /* background-color: blueviolet; */
+    height: 200px;
+    width: 600px;
+    font-family: var(--font-principal);
+}
+
+.contenedor-buscador h3{
+    color: var(--color-primario-buscador);
+    bottom: 55%;
+    font-size: 33px;
+    position: absolute;
+}
+
+.contenedor-buscador h1{
+    color: var(--color-primario-buscador);
+    font-size: 50px;
+    bottom: 19%;
+    position: absolute;
+}
+
+.contenedor-buscador .input-buscador{
+    background-color: var(--primer-color);
+    position: absolute;
+    padding: 10px;
+    border: 1px solid var(--color-primario-buscador);
+    border-radius: 10px;
+    width: 50%;
+    transition: all .5s;
+    bottom: 10%;
+}
+
+.contenedor-buscador .input-buscador:hover{
+    width: 100%;
+}
+
+.input-buscador input{
+    background: transparent;
+    margin-left: 40px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+.input-buscador .input-icon{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+}
+
+.input-buscador button{
+    position: absolute;
+    right: 0;
+    background-color: var(--color-primario-buscador);
+    padding: 10px;
+    border: none;
+    height: 46px;
+    top: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 20px;
+    color: var(--btn-colo-login);
+}
+
+
 
 @keyframes deslizarCentro{
     from {
