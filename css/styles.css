@@ -1,0 +1,23 @@
+@import "variables.css";
+@import "header.css";
+@import "seccion-buscador.css";
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.seccion-videos{
+    background-color: var(--segundo-color);
+}
+
+.seccion-audio{
+    background-color: var(--tercer-color);
+}
+
+footer{
+    background-color: var(--cuarto-color);
+}
+
